@@ -16,11 +16,11 @@ body {
 
 #navbar a {
   float: left;
-  margin-left: 10%;
+  margin-left: 15%;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 50px;
   text-decoration: none;
   font-size: 30px;
 }

@@ -4,9 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="TitleSide.js"></script>
+    <script src="SearchScript.js"></script>
+
 </head>
 
-<body>
+<body background="Resources/Photos/Back.jpg">
 
     <div class="NavBar">
         <div class="header">
@@ -24,21 +27,11 @@
     <div class="Sides">
         <div class="Side">
             <p style="position:fixed;">
-                <input type="text" placeholder="Search item...">
-                <input type="submit">
+                <input  id="searchBar" type="text" >
+                <button onclick="SearchFunct()">submit</button>
+                <p id="da"></p>
             </p>
-            <!--
-                De intrebat miercuri,04.07.2018,  la curs cum se face
-            -->
-            <p><br><br></p>
-            <div class="dropdown" style="position:fixed;">
-                    <button class="dropbtn">Categories</button>
-                    <div class="dropdown-content">
-                        <a href="#">Dildos</a>
-                        <a href="#">Lidl</a>
-                        <a href="#">Ciordite</a>
-                    </div>
-                </div>
+            
         </div>
         <div class="Main">
             <p>da</p>
@@ -64,10 +57,20 @@
                 în anul 45 î.e.n. Această carte este un tratat în teoria eticii care a fost foarte popular în perioada Renasterii.
                 Primul rând din Lorem Ipsum, "Lorem ipsum dolor sit amet...", a fost luat dintr-un rând din secţiunea 1.10.32.</p>
         </div>
+        <div class="Side">
+                <div class="dropdown" style="position:fixed;">
+                        <button class="dropbtn">Categories</button>
+                        <div class="dropdown-content">
+                            <a href="#">Dildos</a>
+                            <a href="#">Lidl</a>
+                            <a href="#">Ciordite</a>
+                        </div>
+                    </div>
+        </div>
     </div>
 
 
-    <script src="TitleSide.js"></script>
+    
 
 </body>
 
