@@ -10,12 +10,11 @@ This site is a mini project targeted to simulate the main features of Emag(www.e
 * Home Page
 * Contacts Page
 * Categories Page
-* Items Pages.
+* Products Pages.
 ###### Local Server
 It has also implemented a localhost server in NodeJS in order to simulate a realistic environment for web development
 
 ## ToDo list
-* Contacts page
-* Categories pages
-* Items pages
-* Search bar feature
+* In products "Home" is active
+* Categories names overall
+* Category 2 names of products
