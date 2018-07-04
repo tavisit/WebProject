@@ -6,8 +6,8 @@ This repository was created to organize the code and the information related to 
 * BackEnd: Javascript and NodeJs Framework
 
 ## Timeline
-* The team was made up of three high-school students: [tavisit](https://github.com/tavisit), [sergiu1spiridon](https://github.com/sergiu1spiridon) and [VlaDutza](https://github.com/VlaDutza)
-* Monday night was the brainstorming time which was very unusual, but useful. From around 3000 ideas, we chose somewhere around 10 features to become our site pillars
+* The team was made up of three high-school students: [tavisit](https://github.com/tavisit), [VlaDutza](https://github.com/VlaDutza) and [sergiu1spiridon](https://github.com/sergiu1spiridon)
+* Monday night was the brainstorming time which was very unusual, but useful. From around 1000 ideas, we chose somewhere around 10 features to become our site pillars
 * Tuesday and Wednesday marked our coding sessions where we implemented ideas from experience, courses and, of course, internet( a lot of it)
 * Wednesday night represented the commenting period of our code
 * Thursday morning was the time for a short revision of everything and at around 2pm that day, the project was submited to the contest
