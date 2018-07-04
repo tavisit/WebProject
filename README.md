@@ -16,3 +16,6 @@ It has also implemented a localhost server in NodeJS in order to simulate a real
 
 ## ToDo list
 * In products "Home" is active
+* Contact Page
+* Comments + Rating
+* Button up
