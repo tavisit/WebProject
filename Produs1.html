@@ -68,13 +68,22 @@
             <br>
             <br>
             <!--
-                The "Comentarii" section doesn't work, it is for now only for presentation
+                The "Comentarii" section works only in the current session. As soon as you Reload or close the page
+                the comments will be obsolete
             -->
-            <p style="float: left;">Comentarii:</p>
-            <input type="text" style="background-color: lightgray; width: 80%; height:100px; ">
-            <p>
+            
+            <h3>Comentarii</h3>
+            <div class="Comments">
+                <textarea id="title" type="text " rows="4" cols="100" onkeyup="Allow()"></textarea>
+                <p>
+                    <input type="submit" value="POST COMMENT" onclick="insert()" />
+                </p>
+
+                <div id="display"></div>
                 <br>
-            </p>
+            </div>
+
+
         </div>
         <!--
             On the right side of the site, it is the categories dropdown botton with the three categories:
@@ -96,6 +105,7 @@
     <!--
         Area dedicated to javascript scripts
     -->
+    <script src="comments.js"></script>
     <script src="TitleSide.js"></script>
 </body>
 

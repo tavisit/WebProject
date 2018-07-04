@@ -54,12 +54,23 @@
             <br>
             <br>
             <br>
-            <p style="float: left;">Comentarii:</p>
-            <input type="text" style="background-color: lightgray; width: 80%; height:100px; ">
-            <p>
+            <h3>Comentarii</h3>
+            <div class="Comments">
+                <textarea id="title" type="text " rows="4" cols="100" onkeyup="Allow()"></textarea>
+                <p>
+                    <input type="submit" value="POST COMMENT" onclick="insert()" />
+                </p>
+
+                <div id="display"></div>
                 <br>
-            </p>
+            </div>
+
+
         </div>
+        <!--
+            On the right side of the site, it is the categories dropdown botton with the three categories:
+            "Laptopuri","Telefoane" and "Electrocasnice"
+         -->
         <div class="Side">
             <div class="dropdown" style="position:fixed;">
                 <button class="dropbtn">Categorii</button>
@@ -73,7 +84,10 @@
     </div>
 
 
-
+    <!--
+        Area dedicated to javascript scripts
+    -->
+    <script src="comments.js"></script>
     <script src="TitleSide.js"></script>
 </body>
 

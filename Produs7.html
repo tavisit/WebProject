@@ -56,24 +56,41 @@
 
                         </p>
                         <br><br><br>
-                        <p style="float: left;">Comentarii:</p>
-                        <input type="text" style="background-color: lightgray; width: 80%; height:100px; ">
-                        <p><br></p>
-                    </div>
-                    <div class="Side">
-                        <div class="dropdown" style="position:fixed;">
-                            <button class="dropbtn">Categorii</button>
-                            <div class="dropdown-content">
-                                <a href="/categorie.html">Laptopuri</a>
-                                <a href="/categorie_2.html">Telefoane</a>
-                                <a href="/categorie_3.html">Electrocasnice</a>
-                            </div>
-                        </div>
-                    </div>
+                        <h3>Comentarii</h3>
+            <div class="Comments">
+                <textarea id="title" type="text " rows="4" cols="100" onkeyup="Allow()"></textarea>
+                <p>
+                    <input type="submit" value="POST COMMENT" onclick="insert()" />
+                </p>
+
+                <div id="display"></div>
+                <br>
             </div>
 
-            
 
-<script src="TitleSide.js"></script>
+        </div>
+        <!--
+            On the right side of the site, it is the categories dropdown botton with the three categories:
+            "Laptopuri","Telefoane" and "Electrocasnice"
+         -->
+        <div class="Side">
+            <div class="dropdown" style="position:fixed;">
+                <button class="dropbtn">Categorii</button>
+                <div class="dropdown-content">
+                    <a href="/categorie.html">Laptopuri</a>
+                    <a href="/categorie_2.html">Telefoane</a>
+                    <a href="/categorie_3.html">Electrocasnice</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+        Area dedicated to javascript scripts
+    -->
+    <script src="comments.js"></script>
+    <script src="TitleSide.js"></script>
 </body>
+
 </html>
