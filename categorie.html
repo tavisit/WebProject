@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Page for a category
+-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--
+        Area for stylesheets
+    -->
     <link rel="stylesheet" href="categorii.css">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
+
+    <!--
+        This part is used for the Navigation Bar, which will be present thoughout the whole project
+    -->
     <div class="NavBar">
         <div class="header">
             <h1>MiniEmag</h1>
@@ -23,11 +33,19 @@
             <a href="contact.html" style="padding: 0px 30px">Contact</a>
         </div>
     </div>
+
+    <!--
+            On the bottom side of the site, a search bar for the items on this page 
+            The search bar has attached a function to sort the items in the input field
+    -->
     <div class="search-bar">
         <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" placeholder="Search">
 
     </div>
 
+    <!--
+            The items are showns in an unordered list
+    -->
     <ul id="cat">
         <li>
             <a href="/produs1.html">Asus VivoBook </a>
@@ -46,6 +64,10 @@
         </li>
     </ul>
 </body>
+
+<!--
+        Area dedicated to javascript scripts
+-->
 <script src="SearchScript.js"></script>
 <script src="TitleSide.js"></script>
 
