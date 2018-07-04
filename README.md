@@ -19,3 +19,4 @@ It has also implemented a localhost server in NodeJS in order to simulate a real
 * Contact Page
 * Comments + Rating
 * Button up
+*[favicon](https://www.favicon-generator.org/)
