@@ -6,7 +6,7 @@ This repository was created to organize the code and information
 ###### BackEnd: Javascript(NodeJs Framework)
 
 ## Main Details
-This site is a mini project targeted to simulate the main features of Emag(www.emag.ro). It consists of four main pages:
+This site is a mini project targeted to simulate the main features of [Emag](www.emag.ro). It consists of four main pages:
 * Home Page
 * Contacts Page
 * Categories Page
@@ -19,4 +19,4 @@ It has also implemented a localhost server in NodeJS in order to simulate a real
 * Contact Page
 * Comments + Rating
 * Button up
-*[favicon](https://www.favicon-generator.org/)
+* [favicon](https://www.favicon-generator.org/)
