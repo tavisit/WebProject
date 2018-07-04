@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Page for the product
+-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css";>
+    <!--
+        Area for stylesheets
+    -->
+    <link rel="stylesheet" href="style.css" ;>
 </head>
-<body>
-        <div class="NavBar">
-                <div class="header">
-                    <h1>MiniEmag</h1>
-                </div>
-        
-                <div id="navbar">
-                    <a href="home.html">Acasa</a>
-        
-                    <a href="basket.html">Cos</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
 
-            <div class="Sides">
-                    <div class="Side">
-                            <p></p>
-                            <p></p>
-                        </p>
-            
-                    </div>
+<body>
+    <!--
+        This part is used for the Navigation Bar, which will be present thoughout the whole project
+    -->
+    <div class="NavBar">
+        <div class="header">
+            <h1>MiniEmag</h1>
+        </div>
+
+        <div id="navbar">
+            <a href="home.html">Acasa</a>
+
+            <a href="basket.html">Cos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!--
+        The main body
+        Here, the site is splited in 3 main areas:Left,Center and Right
+    -->
+    <div class="Sides">
+        <div class="Side">
+            <p></p>
+            <p></p>
+            </p>
+
+        </div>
+        <!--
+            The main area of the page consists of the title of the product, its price,
+            An image with the product and a description
+         -->
                     <div class="Main">
                         <h3>Numele produsului este:Huawei Mate RS Porsche Design, Dual SIM, 256GB, 4G, Black</h3>
                         <br>
@@ -56,7 +74,12 @@
 
                         </p>
                         <br><br><br>
-                        <h3>Comentarii</h3>
+                        <!--
+                The "Comentarii" section works only in the current session. As soon as you Reload or close the page
+                the comments will be obsolete
+            -->
+            
+            <h3>Comentarii</h3>
             <div class="Comments">
                 <textarea id="title" type="text " rows="4" cols="100" onkeyup="Allow()"></textarea>
                 <p>
