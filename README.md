@@ -20,7 +20,7 @@ The first part is the actual creation of the site host realized in **main.js** a
 
 
 ## Commenting
-The whole project is commented in blocks of code. Each main area is discused in one to three lines of comments for a more readable code with a high level of maintainability
+The whole project is commented in blocks of code. Each main area is discussed in one to three lines of comments for a more readable code with a high level of maintainability
 
 ## ToDo list
 * Comments + Rating for the products
