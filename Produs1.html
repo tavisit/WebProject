@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Page for the product
+-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--
+        Area for stylesheets
+    -->
     <link rel="stylesheet" href="style.css" ;>
 </head>
 
 <body>
+    <!--
+        This part is used for the Navigation Bar, which will be present thoughout the whole project
+    -->
     <div class="NavBar">
         <div class="header">
             <h1>MiniEmag</h1>
@@ -22,7 +31,10 @@
             <a href="contact.html">Contact</a>
         </div>
     </div>
-
+    <!--
+        The main body
+        Here, the site is splited in 3 main areas:Left,Center and Right
+    -->
     <div class="Sides">
         <div class="Side">
             <p></p>
@@ -30,6 +42,10 @@
             </p>
 
         </div>
+        <!--
+            The main area of the page consists of the title of the product, its price,
+            An image with the product and a description
+         -->
         <div class="Main">
             <h3>Numele produsului este: Asus Ultrabook VivoBook</h3>
             <br>
@@ -51,12 +67,19 @@
             <br>
             <br>
             <br>
+            <!--
+                The "Comentarii" section doesn't work, it is for now only for presentation
+            -->
             <p style="float: left;">Comentarii:</p>
             <input type="text" style="background-color: lightgray; width: 80%; height:100px; ">
             <p>
                 <br>
             </p>
         </div>
+        <!--
+            On the right side of the site, it is the categories dropdown botton with the three categories:
+            "Laptopuri","Telefoane" and "Electrocasnice"
+         -->
         <div class="Side">
             <div class="dropdown" style="position:fixed;">
                 <button class="dropbtn">Categorii</button>
@@ -70,7 +93,9 @@
     </div>
 
 
-
+    <!--
+        Area dedicated to javascript scripts
+    -->
     <script src="TitleSide.js"></script>
 </body>
 
