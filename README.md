@@ -15,8 +15,4 @@ This site is a mini project targeted to simulate the main features of [Emag](www
 It has also implemented a localhost server in NodeJS in order to simulate a realistic environment for web development
 
 ## ToDo list
-* In products "Home" is active
-* Contact Page
 * Comments + Rating
-* Button up
-* [favicon](https://www.favicon-generator.org/)
