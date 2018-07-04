@@ -1,3 +1,6 @@
+<!--
+    Contacts page for the project
+-->
 <!DOCTYPE html>
 <html>
 
@@ -6,11 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--
+        Area for stylesheets
+    -->
     <link rel="stylesheet" href="categorii.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <Body>
+    <!--
+        This part is used for the Navigation Bar, which will be present thoughout the whole project
+    -->
     <div class="NavBar">
         <div class="header">
             <h1>MiniEmag</h1>
@@ -22,43 +31,57 @@
             <a class="active" href="contact.html" style="padding: 0px 30px">Contact</a>
         </div>
     </div>
-</Body>
-<div class="Sides">
-    <div class="Side">
-        <p></p>
-    </div>
 
-    <div class="Main">
-        <h3>Contact</h3>
-        <br>
-        <br>
-        <br>
-        <p>Ne puteti gasi la adresa: Strada Alexandru Ioan Cuza 13 Craiova</p>
-        <div id="map" style="width:90%;height:400px;margin-left:5%;margin-right:5%;background:yellow"></div>
-
-        <p>
+    <div class="Sides">
+        <div class="Side">
+            <p></p>
+        </div>
+        <!--
+                Main area of the page
+        -->
+        <div class="Main">
+            <h3>Contact</h3>
             <br>
-            <p>Ne puteti trimite mail pe adresa:
-                <br>dragos.sebestin@novabooker.ro
+            <br>
+            <br>
+            <p>Ne puteti gasi la adresa: Strada Alexandru Ioan Cuza 13 Craiova</p>
+            <!--
+                In this div it is implemented a map with the ApiKey provided by GoogleMaps
+            -->
+            <div id="map" style="width:90%;height:400px;margin-left:5%;margin-right:5%;background:yellow"></div>
+
+            <p>
                 <br>
+                <p>Ne puteti trimite mail pe adresa:
+                    <br>dragos.sebestin@novabooker.ro
+                    <br>
+                </p>
             </p>
-        </p>
 
-    </div>
+        </div>
 
-
-    <div class="Side">
-        <div class="dropdown" style="position:fixed;">
-            <button class="dropbtn">Categorii</button>
-            <div class="dropdown-content">
-                <a href="/categorie.html">Laptopuri</a>
-                <a href="/categorie_2.html">Telefoane</a>
-                <a href="/categorie_3.html">Electrocasnice</a>
+        <!--
+            On the right side of the site, it is the categories dropdown botton with the three categories:
+            "Laptopuri","Telefoane" and "Electrocasnice"
+         -->
+        <div class="Side">
+            <div class="dropdown" style="position:fixed;">
+                <button class="dropbtn">Categorii</button>
+                <div class="dropdown-content">
+                    <a href="/categorie.html">Laptopuri</a>
+                    <a href="/categorie_2.html">Telefoane</a>
+                    <a href="/categorie_3.html">Electrocasnice</a>
+                </div>
             </div>
         </div>
+
+        <!--
+        Area dedicated to javascript scripts
+        The map has the ApiKey:AIzaSyAA22sxShnMVX0c3w1qTvsrfGFa3mQNtyg
+        -->
+        <script src="mapGoogle.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA22sxShnMVX0c3w1qTvsrfGFa3mQNtyg&callback=myMap"></script>
     </div>
-    <script src="mapGoogle.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA22sxShnMVX0c3w1qTvsrfGFa3mQNtyg&callback=myMap"></script>
-</div>
+</Body>
 
 </html>

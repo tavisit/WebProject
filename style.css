@@ -3,6 +3,8 @@ body {
   font-size: 28px;
   background-image: url("Resources/Photos/Back.jpg");
 }
+
+
 /* Stiky MenuBar */
 .header {
   background-color: #f1f1f1;
@@ -49,6 +51,9 @@ body {
 .sticky + .content {
   padding-top: 60px;
 }
+
+
+
 /* Main body configuration */
 .Side{
     float:left;

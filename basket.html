@@ -1,3 +1,6 @@
+<!--
+    Basket page for the project
+-->
 <!DOCTYPE html>
 <html>
 
@@ -6,11 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!--
+        Area for stylesheets
+    -->
     <link rel="stylesheet" href="categorii.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <Body>
+    <!--
+        This part is used for the Navigation Bar, which will be present thoughout the whole project
+    -->
     <div class="NavBar">
         <div class="header">
             <h1>MiniEmag</h1>
@@ -22,27 +31,37 @@
             <a href="contact.html" style="padding: 0px 30px">Contact</a>
         </div>
     </div>
-</Body>
-<div class="Sides">
-    <div class="Side">
-        <p></p>
-    </div>
-
-    <div class="Main">
-        <h1>Cosul tau este gol </h1>
-    </div>
 
 
-    <div class="Side">
-        <div class="dropdown" style="position:fixed;">
-            <button class="dropbtn">Categories</button>
-            <div class="dropdown-content">
-                <a href="/categorie.html">Laptopuri</a>
-                <a href="/categorie_2.html">Telefoane</a>
-                <a href="/categorie_3.html">Electrocasnice</a>
+
+    <div class="Sides">
+        <div class="Side">
+            <p></p>
+        </div>
+
+
+        <!--
+                Main area of the page
+        -->
+        <div class="Main">
+            <h1>Cosul tau este gol </h1>
+        </div>
+
+        <!--
+            On the right side of the site, it is the categories dropdown botton with the three categories:
+            "Laptopuri","Telefoane" and "Electrocasnice"
+         -->
+        <div class="Side">
+            <div class="dropdown" style="position:fixed;">
+                <button class="dropbtn">Categories</button>
+                <div class="dropdown-content">
+                    <a href="/categorie.html">Laptopuri</a>
+                    <a href="/categorie_2.html">Telefoane</a>
+                    <a href="/categorie_3.html">Electrocasnice</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</Body>
 
 </html>

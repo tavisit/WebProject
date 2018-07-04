@@ -1,6 +1,7 @@
 var slideIndex = 0;
 showSlides();
 
+//Function showSlides assures a smooth transition between slides
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -10,5 +11,5 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
+    setTimeout(showSlides, 1500); // Change image every 1.5 seconds
 }

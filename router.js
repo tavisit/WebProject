@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+//Function serveStatic construct the URL of the desired page
 function serveStatic (req, res) {
   console.log(req.url);
   let filePath = path.join(__dirname, req.url);
@@ -18,6 +19,7 @@ function serveStatic (req, res) {
   });
 }
 
+//Function getType sees the extension of the file and it build the Type of the URL for the HTTP 
 function getType (fileName) {
   if (/.html/i.test(fileName))
     return 'text/html';
@@ -25,7 +27,6 @@ function getType (fileName) {
     return 'text/css';
   if (/.js/i.test(fileName))
     return 'application/javascript';
-
   return 'text/plain';
 }
 

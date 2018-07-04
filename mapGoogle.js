@@ -1,3 +1,4 @@
+//Dunno, Google Maps magic
 function myMap() {
     var mapOptions = {
         center: new google.maps.LatLng(44.318647, 23.800865),
