@@ -16,5 +16,3 @@ It has also implemented a localhost server in NodeJS in order to simulate a real
 
 ## ToDo list
 * In products "Home" is active
-* Categories names overall
-* Category 2 names of products
