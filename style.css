@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-size: 28px;
+  background-image: url("Resources/Photos/Back.jpg");
 }
 /* Stiky MenuBar */
 .header {
