@@ -26,6 +26,8 @@ This site is a mini project targeted to simulate the main features of [Emag](www
 The code has also a localhost server in NodeJS in order to simulate a realistic environment for web development implemented in two parts.
 The first part is the actual creation of the site host realized in **main.js** and the second is the URL interpreter, **router.js**
 
+## Instructions
+From the main page,"home.html", you can access the products from the interactive slideshow, the main grid or from the "Categorii", right section of the site. In the main page, as well as in the categories themselves, there is a search bar on the left, respectively on the bottom of the page. When writing characters there, only the products with those characters will remain on display.
 
 ## Commenting
 The whole project is commented in blocks of code. Each main area is discussed in one to three lines of comments for a more readable code with a high level of maintainability
